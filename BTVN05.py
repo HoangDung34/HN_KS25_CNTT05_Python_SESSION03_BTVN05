@@ -10,8 +10,8 @@
         id - str - Nhập id nhân viên - không để trống
         name - str - Nhập tên nhân viên - không để trống
         current_salary - float - Nhập lương hiện tại nhân viên - > 0
-        kpi_score - str - Nhập điểm kpi nhân viên - từ 1.0 đến 5.0
-        experience_year - str - Nhập năm kinh nghiệm của nhân viên - >= 0
+        kpi_score - float - Nhập điểm kpi nhân viên - từ 1.0 đến 5.0
+        experience_year - int - Nhập năm kinh nghiệm của nhân viên - >= 0
     1.3. Thiết kế luồng chương trình
         vòng lặp:
             nhập id -> nếu rỗng nhập lại
